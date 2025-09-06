@@ -1,4 +1,4 @@
-
+t
 def encryption(word,shift):
 
     result=""
@@ -31,7 +31,8 @@ def decryption(word,shift):
     print(result)
     return result
 
-temp=encryption("gfiohusdhfslduhasdfkjhsdflusdfsfdsfd",3)
+temp=encryption("Enter a password here",5)
 
-decryption(temp,3)
+decryption(temp,5)
+
 
